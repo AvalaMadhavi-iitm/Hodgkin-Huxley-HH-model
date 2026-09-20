@@ -38,12 +38,7 @@ The simulator provides adjustable parameters and real-time visualization of the 
 The membrane voltage is governed by the current-balance equation:
 
 $$
-C_m\frac{dV}{dt}
-=
--g_{Na}(V-E_{Na})
--g_K(V-E_K)
--g_L(V-E_L)
-+I_{app}
+C_m\frac{dV}{dt} = -g_{Na}(V-E_{Na}) -g_K(V-E_K) -g_L(V-E_L) +I_{app}
 $$
 
 where:
